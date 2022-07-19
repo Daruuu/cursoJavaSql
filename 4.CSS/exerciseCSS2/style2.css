@@ -1,0 +1,11 @@
+label, input{
+    font-size: 24px;
+}
+
+input:in-range{
+    border-color:greenyellow;
+}
+
+input:out-of-range{
+    border-color:  red;
+}

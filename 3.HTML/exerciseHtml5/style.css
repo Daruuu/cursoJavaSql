@@ -1,0 +1,10 @@
+form{
+    font-size: 18px;
+}
+input:valid{
+    color: navy;
+}
+input.invalid{
+    color: red;
+}
+
