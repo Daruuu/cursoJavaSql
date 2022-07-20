@@ -1,0 +1,26 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+.container-fluid{
+    background-color: yellow;
+}
+
+@include media-breakpoint-up(lg){
+    .container-fluid{
+        background-color: red;
+    }
+}
+@include media-breakpoint-between(md, xl) { ... }
+@include media-breakpoint-up(xl){
+    .container-fluid{
+        background-color: greenyellow;
+    }
+}
+@include media-breakpoint-up(xxl){
+    .container-fluid{
+        background-color: fuchsia;
+    }
+}
