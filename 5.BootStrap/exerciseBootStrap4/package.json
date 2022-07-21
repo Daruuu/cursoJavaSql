@@ -1,5 +1,5 @@
 {
-  "name": "5.BootStrap",
+  "name": "exerciseBootStrap4",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.1.0",
-    "node": "^18.5.0"
+    "bootstrap": "^5.1.0"
   }
 }
