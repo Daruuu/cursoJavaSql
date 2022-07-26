@@ -1,0 +1,1 @@
+let foodEmojis = [,'U+1F354' ];
