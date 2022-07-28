@@ -10,7 +10,7 @@ function iterateLetras(params) {
 arrayLetras.forEach(iterateLetras);
 
 /*
-define una variable
+2. define una variable
 let numero = 5 que itere hasta que el valor sea 0
 */
 let numero = 5;
