@@ -2,7 +2,6 @@
 1. a partir de la pizza subtituye todos los elementos del array por cervezas.
 */
 const foodEmojis = ["🍔", "🍱", "🌯", "🍣", "🍕", "🫕", "🍙", "🥩", "🫓"]; //9
-
 const emojisForEach = foodEmojis.forEach(element => {
     console.log(element);
 });
@@ -15,7 +14,6 @@ const emojisForEach = foodEmojis.forEach(element => {
 
 const arrayPinas = ["🍕", "🍕", "🍍", "🍕", "🍕"]; //4
 console.log("original array: " + arrayPinas);
-
 function removeItemPina(arrayPinas, pina) {
     let i = arrayPinas.indexOf(pina);
     if (i >= 0) {
@@ -30,37 +28,37 @@ removeItemPina(arrayPinas, "🍍");
 //4. convierte todas las fresas en 🍄
 
 const arrLimon = ["🍓", "🍋", "🍓", "🍋", "🍓"];
-
-for (let i = 0; i < arrLimon.length; i++) {
-    if (arrLimon[i] === "🍓") {
-        arrLimon[i] = "🍄";
+console.log("array original ==> " + arrLimon);
+function convertirAChampin() {
+    for (let i = 0; i < arrLimon.length; i++) {
+        if (arrLimon[i] === "🍓") {
+            arrLimon[i] = "🍄";
+        }
     }
-}
-console.log(arrLimon);
-
+    console.log("array modificado ==> " + arrLimon);
+};
+convertirAChampin();
 
 
 
 //5. añade un icono 👽 despues de cada 🌶️:
 
 const arrayAlien = ["🌶️","🥛","🌶️","🥛","🌶️","🥛"];
-//const alien = ["👽"];
-//const anadirItem = arrayAlien.map(e => "🌶️" + "👽");
-
-//const updateAlien = arrayAlien.splice("🌶️",0,"👽");
 
 function newArray() {
     for (let i = 0; i < arrayAlien.length; i++) {
         while (arrayAlien[i] === "🌶️") {
             arrayAlien == arrayAlien.splice(i+1,0,"👽");
-            console.log(arrayAlien);
             break;
         }
     }
+    console.log(arrayAlien);
 }
 newArray();
 console.log(arrayAlien);
-//console.log(anadirItem);
+
+
+
 
 // añade un 🃏 entre medio de 2 cartas:
 
