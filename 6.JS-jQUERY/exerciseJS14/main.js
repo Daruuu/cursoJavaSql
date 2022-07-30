@@ -1,11 +1,22 @@
 /*
-1. a partir de la pizza subtituye todos los elementos del array por cervezas.
+1. a partir de la pizza subtituye todos los elementos del array por cervezas. 🍺
 */
 const foodEmojis = ["🍔", "🍱", "🌯", "🍣", "🍕", "🫕", "🍙", "🥩", "🫓"]; //9
 const emojisForEach = foodEmojis.forEach(element => {
     console.log(element);
 });
 
+function reemplazaPizza() {
+    for (let i = 0; i < foodEmojis.length; i++) {
+        //const element = array[i];
+        while (foodEmojis[i] === "🍕") {
+            replaceItem = foodEmojis.replace(foodEmojis[5-8],"🍺");
+            break;
+        } 
+        console.log(foodEmojis);
+    }
+}
+reemplazaPizza();
 
 
 
@@ -62,7 +73,11 @@ console.log(arrayAlien);
 
 // añade un 🃏 entre medio de 2 cartas:
 
-const arrComodin = [""];
+const arrComodin = ["🎴","🎴","🎴","🃏","🎴","🎴","🎴"];
+
+function name(params) {
+    
+}
 
 
 
