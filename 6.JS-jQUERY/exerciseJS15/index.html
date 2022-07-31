@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--
+
+    <!-- CSS-->
     <link rel="stylesheet" href="style.css">
-    -->
+    
     <!-- JQUERY-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
@@ -21,6 +22,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
+    
     <title>exercise 15 JS</title>
 </head>
 
@@ -30,31 +32,35 @@
     <div>
         <div class="container mt-5 border border-primary shadow-lg p-3 mb-5 bg-body rounded ">
             <h1>Add Item</h1>
-            <form id="" class="d-flex aligns-items-center justify-content-center">
-                <div class="">
-                    <button type="button" class="btn btn-primary waves-effect" value="Push">Push</button>
-                    <button type="button" class="btn btn-info waves-effect" value="Unshift">Unshift</button>
-                    <button type="button" class="btn btn-danger waves-effect" value="InsertAt">Insert at</button>
+            <form class="d-flex aligns-items-center justify-content-center">
+                <div>
+                    <button type="button" onclick="push()" class="btn btn-primary waves-effect" value="push">Push</button>
+                    <button type="button" onclick="unshift()" class="btn btn-info waves-effect" value="unshift">Unshift</button>
+                    <button type="button" onclick="insertAt()" class="btn btn-danger waves-effect" value="insertAt">Insert at</button>
                 </div>
 
             </form>
         </div>
-
-
 
 
 
         <div class="container border border-primary shadow-lg p-3 mb-5 bg-body rounded">
             <h1>Remove Item</h1>
-            <form id="">
+            <form class="d-flex aligns-items-center justify-content-center">
                 <div class="">
-                    <button type="button" class="btn btn-primary waves-effect" value="Pop">Pop</button>
-                    <button type="button" class="btn btn-info waves-effect" value="shift">Shift</button>
-                    <button type="button" class="btn btn-danger waves-effect" value="removeAt">Remove at</button>
+                    <button type="button" onclick="pop()" class="btn btn-primary waves-effect" value="pop">Pop</button>
+                    <button type="button" onclick="shift()" class="btn btn-info waves-effect" value="shift">Shift</button>
+                    <button type="button" onclick="removeAt()" class="btn btn-danger waves-effect" value="removeAt">Remove at</button>
                 </div>
             </form>
+        </div class="container border border-primary shadow-lg p-3 mb-5 bg-body rounded">
+
+        <div>
+
         </div>
+
     </div>
+
 
 
 </body>
