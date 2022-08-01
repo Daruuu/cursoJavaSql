@@ -2,7 +2,7 @@
 
 $().ready(() => {
     //alert("this works");
-    $('#btn1').click(function () {
+    $('#btn1').click(() => {
         $("#p1").css('color', 'green');
     });
 });
@@ -12,6 +12,6 @@ $().ready(() => {
 
 $().ready(() => {
     $('#btn2').on("click", function () {
-        $('#p2').css('color', 'blue');
+        $('#p2').toggleClass('hola');
     });
 });

@@ -21,13 +21,13 @@ console.log("original array: " + arrayPinas);
 
 function removeItemPina(arrayPinas, pina) {
     let i = arrayPinas.indexOf(pina);
+    
     if (i >= 0) {
         arrayPinas.splice(i, 1);
     }
     console.log("array update: " + arrayPinas);
 };
 removeItemPina(arrayPinas, "🍍");
-
 
 
 //4. convierte todas las fresas en 🍄
