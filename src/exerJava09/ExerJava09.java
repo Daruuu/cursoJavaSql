@@ -1,6 +1,6 @@
 package exerJava09;
 
-public class exerJava09 {
+public class ExerJava09 {
     public static void main(String[] args) {
 
         String name = "Daruny";
