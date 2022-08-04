@@ -1,27 +1,29 @@
 package exerJava11;
+import java.util.Scanner;
 
 public class Incrementar {
     int numero = 0;
-    float num = 1;
-
     public static void main(String[] args) {
         Incrementar e = new Incrementar();
-        e.incrementarNum();
-        e.decrementarNum();
+        Scanner sc = new Scanner(System.in);
+        int numCreciente = sc.nextInt();
+        int numDecreciente = sc.nextInt();
+        e.incrementarNum(numCreciente);
+        e.decrementarNum(numDecreciente);
     }
 
-    public void incrementarNum() {
-        while (numero == 0){
-            numero =+ 1;
+    public void incrementarNum(int numCreciente) {
+        while (numCreciente == 0){
+            numCreciente =+ 1;
         }
-        System.out.println(numero);
+        System.out.println(numCreciente);
     }
 
-    public void decrementarNum() {
-        while (num == 0){
-            num =- 4;
+    public void decrementarNum(int numDecreciente) {
+        while (numDecreciente == 0){
+            numDecreciente =- 2;
         }
-        System.out.println(numero);
+        System.out.println(numDecreciente);
     }
 
 }
