@@ -11,13 +11,4 @@ public class BlancoNegro {
         System.out.println("random number => " + randomNumber);
         System.out.println("result in boolean => " + result);
     }
-
-    /*
-    public double numRandom() {
-        for (int i = 0; i < 1; i++) {
-            double randomNum = Math.random();
-            System.out.println(randomNum);
-        }
-        return 0;
-    }*/
 }

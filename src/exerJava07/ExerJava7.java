@@ -12,7 +12,7 @@ public class ExerJava7 {
         final float varFloat = 40f;
         final double varDouble = 40.1;
         // constantes
-        final int VARFINAL = 2020;
+        final Integer NUMEROFINAL = 2020;
 
         System.out.println(mayorEdad);
         System.out.println(ch);
@@ -20,6 +20,6 @@ public class ExerJava7 {
         System.out.println(varNumero);
         System.out.println(varFloat);
         System.out.println(varDouble);
-        System.out.println(VARFINAL);
+        System.out.println(NUMEROFINAL);
     }
 }
