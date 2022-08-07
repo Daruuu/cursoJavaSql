@@ -1,4 +1,4 @@
-NOWTIME=$(date + "%T")
+NOWTIME="$(date +"%T")"
 rungit:
 	git status
 	git add .
