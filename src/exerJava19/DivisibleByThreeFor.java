@@ -9,6 +9,7 @@ public class DivisibleByThreeFor {
         DivisibleByThreeFor t = new DivisibleByThreeFor();
         t.numDivFor();
     }
+
     public void numDivFor() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduce el lenght del array:\n");
@@ -19,11 +20,12 @@ public class DivisibleByThreeFor {
             arrayOne[i] = sc.nextInt();
         }
         System.out.println(Arrays.toString(arrayOne));
-        for (int array: arrayOne) {
-            System.out.println(array % 3 == 0 ? "SI es divisible por 3" : "NO es divisible por 3");
+        for (int array : arrayOne) {
+            System.out.println(array % 3 == 0
+                    ? "SI es divisible por 3"
+                    : "NO es divisible por 3");
         }
-    }
-    /*
+    }/*
     public void divisibleONo(){
         if (arrayOne[i] % 3 == 0) {
             System.out.println(arrayOne[i] + " ");
@@ -32,7 +34,4 @@ public class DivisibleByThreeFor {
         }
         System.out.println(Arrays.toString(arrayOne));
     }*/
-
-
-
 }
