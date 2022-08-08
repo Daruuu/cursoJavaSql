@@ -1,6 +1,6 @@
 rungit:
-	NOWTIME="${date +"%T"}"
+#	NOWTIME="${date +"%T"}"
 	git status
 	git add .
-	git commit -m "automate-commit ($NOWTIME)"
+	git commit -m "automate-commit with makefile"
 	git push origin main
