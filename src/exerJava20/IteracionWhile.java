@@ -8,7 +8,6 @@ public class IteracionWhile {
 
     public void loopWHILE() {
         int i = 1;
-
         while (i < 6) {
             if (i == 3) {
                 break;
@@ -18,6 +17,4 @@ public class IteracionWhile {
         }
         System.out.println("sale en la iteracion: " + i);
     }
-
-
 }
