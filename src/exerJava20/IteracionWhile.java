@@ -7,15 +7,16 @@ public class IteracionWhile {
     }
 
     public void loopWHILE() {
-        int i = 0;
+        int i = 1;
+
         while (i < 6) {
-            System.out.println("iteracion" + i);
             if (i == 3) {
-                System.out.println("programa termina en loop " + i );
                 break;
             }
+            System.out.println("iteracion" + i);
             i++;
         }
+        System.out.println("sale en la iteracion: " + i);
     }
 
 
