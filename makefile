@@ -1,5 +1,5 @@
 rungit:
-	NOWTIME="$(date +"%T")"
+	NOWTIME="${date +"%T"}"
 	git status
 	git add .
 	git commit -m "automate-commit ($NOWTIME)"
