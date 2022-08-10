@@ -18,6 +18,7 @@ public class ConstanteColor {
         System.out.println(RED_BACKGROUND);
         System.out.println(RESET);
         System.out.println(YELLOW);
+
         System.out.println(YELLOW_BACKGROUND);
     }
 
