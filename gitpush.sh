@@ -9,4 +9,4 @@ read BRANCH
 git push origin $BRANCH
 read
 	echo "REPOSITORY UPDATED SUCCESFUL!!"
-git log -n3
+git log -n 3
